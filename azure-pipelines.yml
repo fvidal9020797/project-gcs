@@ -15,6 +15,6 @@ steps:
 
 
 - script: 
-    cat id_azure
+   sudo ssh -i id_azure azureuser@23.102.156.214
 
   displayName: 'Run a multi-line script'
