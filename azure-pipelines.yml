@@ -15,6 +15,6 @@ steps:
 
 
 - script: 
-    ssh -i id_git azureuser@23.102.156.214 sudo touch rrr.txt
+    ssh -i id_git azureuser@23.102.156.214
 
   displayName: 'Run a multi-line script'
