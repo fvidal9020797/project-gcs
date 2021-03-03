@@ -18,6 +18,5 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
     ssh -i $(id_azure) azureuser@23.102.156.214 sudo touch bbbb.txt
-    touch prueba_desde_pipeline.text
 
   displayName: 'Run a multi-line script'
